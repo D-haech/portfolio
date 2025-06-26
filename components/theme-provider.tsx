@@ -1,26 +1,11 @@
-'use client'
-import { useEffect, useState } from 'react'
+"use client"
 
-export default function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [isDark, setIsDark] = useState(false)
+import * as React from "react"
+import { ThemeProvider as NextThemesProvider } from "next-themes"
 
-  useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }, [isDark])
-
-  return (
-    <div>
-      <button
-        onClick={() => setIsDark(!isDark)}
-        className="fixed top-4 right-4 p-2 rounded bg-gray-300 dark:bg-gray-700 text-sm"
-      >
-        {isDark ? '🌙 Dark' : '☀️ Light'}
-      </button>
-      {children}
-    </div>
-  )
+export function ThemeProvider({
+  children,
+  ...props
+}: React.ComponentProps<typeof NextThemesProvider>) {
+  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
 }

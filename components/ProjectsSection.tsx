@@ -16,7 +16,7 @@ export default function ProjectsSection() {
                         <h3 className="font-bold">Certficate Portal</h3>
                         <p>A certificate portal created for skyline ICT consult
                             used for issuing certificate to graduating students.
-                            My role was really on the frontend of the app. We used pure HTML, CSS,
+                            My role was really on the frontend of the app. We used HTML, CSS,
                             Bootstrap and Vanilla Javascript. The site is live
                         </p>
                     </li>
