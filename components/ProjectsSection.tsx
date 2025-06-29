@@ -1,29 +1,68 @@
 export default function ProjectsSection() {
     return (
-        <section id="projects">
-            <h2 className="text-2xl font-semibold mb-2">Projects</h2>
-            <div className="border p-4 rounded-md bg-white dark:bg-gray-800">
-                <ol className="list-decimal px-3">
-                    <li>
-                        <h3 className="font-bold">Farm Product Showcase</h3>
+        <section id="projects" className="py-16 px-6 bg-white dark:bg-gray-950">
+            <div className="max-w-6xl mx-auto">
+                <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">My Projects</h2>
 
-                        <p>
-                            A React + Django web app that displays farm animals, prices, and health benefits. Live at
-                            <a href="https://imisifedara.com.ng" target="_blank" className="text-blue-500 ml-1"> imisifedara.com.ng</a>.
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/* Project 1 */}
+                    <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+                        <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Class Sphere</h3>
+                        <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                            A school management system for Nigerian basic schools. Built with Django and React.
                         </p>
-                    </li>
-                    <li>
-                        <h3 className="font-bold">Certficate Portal</h3>
-                        <p>A certificate portal created for skyline ICT consult
-                            used for issuing certificate to graduating students.
-                            My role was mainly on the frontend of the app where we used HTML, CSS,SCSS,
-                            Bootstrap and Vanilla Javascript. The site is currently live
+                        <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">
+                            Tech Stack: Django · React · Tailwind · PostgreSQL
                         </p>
-                    </li>
+                        <div className="flex gap-4">
+                            <a
+                                href="https://github.com/yourusername/class-sphere"
+                                className="text-blue-600 hover:underline text-sm"
+                                target="_blank"
+                            >
+                                GitHub
+                            </a>
+                            <a
+                                href="https://class-sphere.vercel.app"
+                                className="text-blue-600 hover:underline text-sm"
+                                target="_blank"
+                            >
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
 
-                </ol>
+                    {/* Project 2 */}
+                    <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+                        <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Farm Produce App</h3>
+                        <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                            A marketplace for farm produce with real-time inventory and pricing.
+                        </p>
+                        <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">
+                            Tech Stack: Next.js · Django REST · Tailwind
+                        </p>
+                        <div className="flex gap-4">
+                            <a
+                                href="https://github.com/yourusername/farm-app"
+                                className="text-blue-600 hover:underline text-sm"
+                                target="_blank"
+                            >
+                                GitHub
+                            </a>
+                            <a
+                                href="https://imisifedara.com.ng"
+                                className="text-blue-600 hover:underline text-sm"
+                                target="_blank"
+                            >
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
 
+                    {/* Add more projects... */}
+                </div>
             </div>
         </section>
+      
     )
 }
