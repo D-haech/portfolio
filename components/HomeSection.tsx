@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import ProfilePic from '../public/osarogie.jpg' // Save your uploaded image as public/osarogie.jpg
-import { ModeToggle } from './Dark'
+//import Image from 'next/image'
+//import ProfilePic from '../public/osarogie.jpg' // Save your uploaded image as public/osarogie.jpg
+//import { ModeToggle } from './Dark'
 
 export default function HomeSection() {
     return (
