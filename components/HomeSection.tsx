@@ -7,7 +7,7 @@ export default function HomeSection() {
     <>
             <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                    👋 Hi, I'm <span className="text-blue-600 dark:text-blue-400">Osarogie Daniel</span>
+                    👋 Hi, I&#39;m <span className="text-blue-600 dark:text-blue-400">Osarogie Daniel</span>
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">
                     Full Stack Developer – I build modern web applications using React, Next.js, and Django.

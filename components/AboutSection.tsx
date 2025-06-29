@@ -4,11 +4,11 @@ export default function AboutSection() {
             <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6 text-gray-800 dark:text-white">About Me</h2>
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                    I'm Osarogie Daniel, a Full Stack Developer from Nigeria with a background in Library and Information Science.
+                    I&#39;m Osarogie Daniel, a Full Stack Developer from Nigeria with a background in Library and Information Science.
                     I specialize in building robust, scalable web apps using React, Next.js, Django, and REST APIs. I enjoy solving real-world problems through clean code and thoughtful design.
                 </p>
                 <p className="text-md text-gray-600 dark:text-gray-400 mb-4">
-                    When I’m not coding, I’m probably mentoring, writing lesson notes, or planning community tech initiatives.
+                    When I&#39;m not coding, I&#39;m probably mentoring, writing lesson notes, or planning community tech initiatives.
                 </p>
 
                 <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-800 dark:text-white">Tech Stack</h3>
