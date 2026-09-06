@@ -22,14 +22,12 @@ export default function AboutSection() {
                     <span className="bg-white dark:bg-gray-800 shadow px-4 py-2 rounded">Django</span>
                 </div>
 
-                {/* Optional CV Link */}
                 <div className="mt-8">
                     <a
-                        href="https://docs.google.com/document/d/1qxxaW7rG-898onPwPzq_aGScWl2Dl69uv7BJd8sEghI/edit?usp=sharing"
-                        target="_blank"
+                        href="mailto:osarogiedanieligbinosa@gmail.com?subject=CV%20Request"
                         className="underline text-blue-600 hover:text-blue-800 dark:text-blue-400"
                     >
-                        View My CV
+                        Request My CV
                     </a>
                 </div>
             </div>
