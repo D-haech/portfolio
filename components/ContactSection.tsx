@@ -8,18 +8,18 @@ export default function ContactSection() {
                 </p>
 
                 <p className="text-lg font-semibold text-gray-800 dark:text-white mb-4">
-                    <a href="mailto:osarogiedanieligbinosa@gmail.com"> 📧 osarogiedanieligbinosa@gmail.com</a>
+                    <a href="mailto:osarogie@sabec.com.ng"> 📧 osarogie@sabec.com.ng</a>
                 </p>
                 
 
 
                 <div className="flex justify-center gap-6 mt-6">
-                    <a href="https://github.com/yourusername" target="_blank" className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">
+                    <a href="https://github.com/D-haech" target="_blank" className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">
                         GitHub
                     </a>
-                    <a href="https://linkedin.com/in/yourlinkedin" target="_blank" className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">
+                    {/* <a href="https://linkedin.com/in/yourlinkedin" target="_blank" className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">
                         LinkedIn
-                    </a>
+                    </a> */}
                     {/* Optional add more: Twitter, Dev.to, etc. */}
                 </div>
 

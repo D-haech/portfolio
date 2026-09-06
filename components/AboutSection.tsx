@@ -25,7 +25,7 @@ export default function AboutSection() {
                 {/* Optional CV Link */}
                 <div className="mt-8">
                     <a
-                        href="/Osarogie_Daniel_CV.pdf"
+                        href="https://docs.google.com/document/d/1qxxaW7rG-898onPwPzq_aGScWl2Dl69uv7BJd8sEghI/edit?usp=sharing"
                         target="_blank"
                         className="underline text-blue-600 hover:text-blue-800 dark:text-blue-400"
                     >
